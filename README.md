@@ -27,3 +27,5 @@ Rename default-config.json to config.json and then modify it
   ]
 }
 ```
+
+#Docker
