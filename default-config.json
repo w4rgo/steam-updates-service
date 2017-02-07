@@ -1,6 +1,6 @@
 {
   "steamcmd": {
-    "path": "steamcmd",
+    "path": "/path/to/steamcmd",
     "refreshMinutes" : "5"
   },
   "database": {
