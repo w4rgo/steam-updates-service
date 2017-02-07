@@ -4,7 +4,7 @@ A service that will return a history of the updates of the steam games configure
 # Configuration
 
 Rename default-config.json to config.json and then modify it
-,,,
+```
 {
   "steamcmd": {
     "path": "steamcmd",
@@ -26,4 +26,4 @@ Rename default-config.json to config.json and then modify it
     }
   ]
 }
-,,,
+```
