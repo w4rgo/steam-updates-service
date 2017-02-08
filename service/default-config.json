@@ -1,0 +1,21 @@
+{
+  "steamcmd": {
+    "path": "/steamcmd",
+    "refreshMinutes" : "5"
+  },
+  "database": {
+    "url": "your.host.url:3306/your_db",
+    "user": "user",
+    "pass": "pass"
+  },
+  "games": [
+    {
+      "name": "conan",
+      "steamGameId": "443030"
+    },
+    {
+      "name": "rust",
+      "steamGameId": "258550"
+    }
+  ]
+}

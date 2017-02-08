@@ -1,0 +1,1 @@
+docker build -t w4rgo/steam-updates-service .
