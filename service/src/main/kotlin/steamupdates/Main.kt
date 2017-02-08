@@ -13,5 +13,5 @@ fun main(args: Array<String>) {
 private fun ScheduleSteamCmdQueries(configData: ConfigData) {
     val minutes : Long =  configData.steamcmd.refreshMinutes
     val scheduler = Executors.newScheduledThreadPool(1)
-    scheduler.scheduleAtFixedRate({ QuerySteamCmdForAllGames(configData.steamcmd.path) }, 0, minutes, TimeUnit.SECONDS)
+    scheduler.scheduleAtFixedRate({ QuerySteamCmdForAllGames(configData.steamcmd.path) }, 0, minutes, TimeUnit.MINUTES)
 }
