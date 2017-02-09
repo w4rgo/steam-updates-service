@@ -62,7 +62,7 @@ private fun createSteamCmdScript(gameId: String, steamCmdPath: String): File {
     PrintWriter(OutputStreamWriter(FileOutputStream(tempScript))).use { printWriter ->
         printWriter.println("#!/bin/bash")
         printWriter.println("cd ${steamCmdPath}")
-        printWriter.println("rm -r appcache")
+        printWriter.println("rm -r /root/Steam/appcache")
         printWriter.println("./steamcmd.sh +login anonymous +app_info_update 1 +app_info_print  ${gameId} +app_info_print  ${gameId} +quit")
         printWriter.close()
     }
